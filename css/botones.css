@@ -1,0 +1,48 @@
+.icono-boton {
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1rem;
+}
+.icono-boton:active {
+  transform: scale(0.95);
+}
+
+.icono-boton.usario {
+  background: url("../images/icon-userio.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icono-boton.car {
+  background: url("../images/icon-car.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.boton-compra {
+  display: block;
+  padding: 1rem 0.625rem;
+  font: var(--button);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: var(--white);
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.boton-compra:active {
+  transform: scale(0.98);
+}
+
+.boton-compra.primer-boton {
+  background: var(--primary);
+}
+
+.boton-compra.segundo-boton {
+  background: var(--secondary);
+}

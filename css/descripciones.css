@@ -1,0 +1,86 @@
+.descripcion-diseno {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.descripcion {
+  max-width: 712px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.producto {
+}
+
+.nombre_producto,
+.precio_producto {
+  text-align: center;
+}
+
+.nombre_producto {
+  margin: 0;
+  font: var(--headline2);
+}
+
+.precio_producto  {
+  margin: 0;
+  margin-top: 1rem;
+  font: var(--headline5);
+}
+
+.tamano {
+}
+
+.titulo_tamano {
+  font: var(--textline1);
+}
+
+.tipos_tamanos{
+  display: flex;
+  gap: 1rem;
+}
+.item_tamano {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+  border-radius: 50%;
+  font: var(--textline1);
+  cursor: pointer;
+  transition: background 250ms ease;
+}
+.item_tamano:hover {
+  background: rgba(126, 110, 110, 0.13);
+}
+
+.seleccionar_caja {
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+.Botones_tienda {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.datos_productos {
+  margin: 0;
+  font: var(--textline2);
+}
+
+@media screen and (min-width: 678px) {
+  .nombre_producto,
+  .precio_producto {
+    text-align: left;
+  }
+
+  .descripcion {
+    padding: 0;
+  }
+}

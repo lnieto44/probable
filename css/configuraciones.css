@@ -1,0 +1,47 @@
+@import "./fuentes.css";
+
+:root {
+  --fontbase: Poppins, sans-serif;
+  --headline1: bold 4.6/5rem var(--fontbase);
+  --headline2: bold 3rem/3.5rem var(--fontbase);
+  --headline3: bold 2rem/5rem var(--fontbase);
+  --headline4: bold 1.5rem/2rem var(--fontbase);
+  --headline5: 1.8rem/2.5rem var(--fontbase);
+  --headline6: bold 1rem/2rem var(--fontbase);
+  --textmenu: bold 1rem/1.5rem var(--fontbase);
+  --textline1: 1.25rem/1.5rem var(--fontbase);
+  --textline2: 1.1rem/2rem var(--fontbase);
+  --textline3: 1rem/2rem var(--fontbase);
+  --textline4: 0.75rem/1.5rem var(--fontbase);
+  --button: bold 1.3rem/1.5rem var(--fontbase);
+  --primary: #1d1d1d;
+  --primaryVariante: #727272;
+  --secondary: #4276fb;
+  --white: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+@media screen and (min-width: 1366px) {
+}
+
+@media screen and (min-width: 1920px) {
+  :root {
+    font-size: 1rem;
+  }
+}

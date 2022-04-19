@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Principe fresco" />
+    <title>Principe Fresco</title>
+    <link rel="icon"href="./iconos/movil-icon-57x57.png"/>
+    <link rel="icon" href="./iconos/movil-icon-60x60.png"/>
+    <link rel="icon" href="./iconos/movil-icon-72x72.png"/>
+    <link rel="icon" href="./iconos/movil-icon-76x76.png"/>
+    <link rel="icon" href="./iconos/movil-icon-114x114.png"/>
+    <link rel="icon" href="./iconos/movil-icon-120x120.png"/>
+    <link rel="icon" href="./iconos/movil-icon-144x144.png"/>
+    <link rel="icon" href="./iconos/movil-icon-152x152.png"/>
+    <link rel="icon" href="./iconos/movil-icon-180x180.png"/>
+    <link rel="icon" href="./iconos/movil-icon-192x192.png"/>
+    <link rel="icon" href="./iconos/favicon-32x32.png"/>
+    <link rel="icon" href="./iconos/favicon-96x96.png"/>
+    <link rel="icon" href="./iconos/favicon-16x16.png"/>
+
+    <meta name="TileImage" content="/ms-icon-144x144.png" />
+    <link rel="stylesheet" href="./css/principal.css" />
+    <link rel="preload" href="./css/principal.css" as="style" />
+
+  </head>
+  <body>
+    <header class="cabecera">
+      <div class="envoltura">
+        <div class="cabecera__contenido ">
+          <a href="#">
+            <img
+              class="cabecera__logo"src="./imagenes/logo-principe-fresco.png" width="247" height="57"/>
+          </a>
+          <nav class="navegacion">
+            <ul class="lista__navegacion">
+              <li><a class="link__navegacion" href="#">home</a></li>
+              <li><a class="link__navegacion" href="#shop">shop</a></li>
+              <li>
+                <a class="link__navegacion" href="#collections">collections</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="cabecera__iconos">
+            <button title="Perfil" class="icono-boton usuario"></button>
+            <button title="Carrito" class="icono-boton car"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="principal">
+      <div id="shop" class="diseno_producto">
+        <section class="diseno_control_deslizante" aria-label="Coleccion de ropa principal">
+          <div class="caja">
+            <div class="imagen_caja sombra_caja">
+              <a href="#slide-1"><img src="./imagenes/pequeno-hombre-01.png" width="80" height="120"/>
+            </a>
+            </div>
+            <div class="imagen_caja">
+              <a href="#slide-2">
+                <img
+                  src="./imagenes/pequeno-hombre-02.png" width="80" height="120"/>
+            </a>
+            </div>
+            <div class="imagen_caja">
+              <a href="#slide-3">
+                <img
+                  src="./imagenes/ropa-pequena-01.png" width="80" height="120"/>
+              </a>
+            </div>
+            <div class="imagen_caja">
+              <a href="#slide-4">
+                <img
+                  src="./imagenes/ropa-pequena-02.png" width="80" height="120"/>
+              </a>
+            </div>
+          </div>
+          <div class="control_deslizante">
+            <div class="contenido_control_deslizante">
+              <div id="slide-1" class="control_deslizante_item">
+                <img
+                  src="./imagenes/imagen-principal-01.png" width="616" height="700"/>
+              </div>
+              <div id="slide-2" class="control_deslizante_item">
+                <img
+                  src="./imagenes/imagen-principal-02.png" width="616" height="700"/>
+              </div>
+              <div id="slide-3" class="control_deslizante_item">
+                <img
+                  src="./imagenes/imagen-principal-03.png" width="616" height="700"/>
+              </div>
+              <div id="slide-4" class="control_deslizante_item">
+                <img
+                  src="./imagenes/imagen-principal-04.png" width="616" height="700"/>
+              </div>
+            </div>
+            <div class="control_deslizante_puntos">
+              <a class="puntos activo" href="#slide-1"></a>
+              <a class="puntos" href="#slide-2"></a>
+              <a class="puntos" href="#slide-3"></a>
+              <a class="puntos" href="#slide-4"></a>
+            </div>
+          </div>
+        </section>
+        <section
+          class="descripcion-diseno"
+          aria-label="Descripcion de ropa principal"
+        >
+          <div class="descripcion">
+            <div class="producto">
+              <h2 class="nombre_producto">Crown Sweatshirt</h2>
+              <p class="precio_producto">$80.00</p>
+            </div>
+            <div class="tamano">
+              <p class="titulo_tamano">Size</p>
+              <div class="tipos_tamanos">
+                <p class="item_tamano seleccionar_caja">S</p>
+                <p class="tipos_tamanos">M</p>
+                <p class="tipos_tamanos">L</p>
+                <p class="tipos_tamanos">XL</p>
+                <p class="tipos_tamanos">XXL</p>
+              </div>
+            </div>
+            <div class="Botones_tienda">
+              <a class="boton-compra primer-boton" href="#">add to cart</a>
+              <a id="boton-compra" href="#" class="boton-compra segundo-boton"
+                >buy it now</a
+              >
+            </div>
+            <p class="datos_productos">
+              Let them know you’re 90s royalty with this official The Fresh
+              Prince crown pattern sweater. Throw vintage vibes that Uncle Phil
+              would approve of. Featuring woven The Fresh Prince logo on chest.
+              Navy crown print crew neck sweatshirt with white ribbed collar and
+              waist band. Cotton/Poly blend.
+            </p>
+          </div>
+        </section>
+      </div>
+      <!-- modal -->
+      <section id="modal" class="modal">
+        <div class="contenido_modal">
+          <div class="envoltura">
+            <div id="modal_cerrar" class="modal_cerrar"></div>
+            <div class="tarjeta_modal">
+              <div class="tarjeta_modal_izquierda">
+                <div class="tarjeta_modal_imagen_izquierda">
+                  <img src="./imagenes/avatar.png" width="64" height="64"/>
+                </div>
+                <div class="tarjeta_modal__izquierda__texto">
+                  <h4 class="tarjeta_modal_izquierda_titulo_texto">
+                    Crown Sweatshirt
+                  </h4>
+                  <p class="tarjeta_modal_izquierda__precio_texto">$85.00</p>
+                </div>
+              </div>
+              <div class="tarjeta_modal__derecha">
+                <p class="tarjeta_modal_cantidad_derecha">1</p>
+                <p class="tarjeta_modal_borrar_derecha ">Remove</p>
+              </div>
+            </div>
+            <div class="modal_datos">
+              <div class="modal_datos_precio">
+                <p class="modal_datos_precio__titulo">Subtotal</p>
+                <p class="modal_datos_total_precio">$85.00</p>
+              </div>
+              <p class="modal__datos__texto">
+                Shipping, taxes, and discount codes calculated at checkout.
+              </p>
+            </div>
+            <a class="boton-compra segundo-boton" href="#">CHECK OUT</a>
+            <p class="modal_texto">
+              Please Note: All items are pre-order and will ship in 6-10 weeks.
+              Guaranteed holiday delivery.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- modal -->
+      <section id="collections" class="set" aria-label="Coleccion de ropas">
+        <div class="envoltura">
+          <h2 class="titulo_set">YOU MAY ALSO LIKE</h2>
+          <div id="set-content" class="set__content">
+            <!-- hand animation -->
+            <div id="hand" class="animacion">
+              <img src="./imagenes/hands.svg" />
+            </div>
+            <!-- animacion -->
+            <div class="item_set">
+              <img
+                data-outfit="setOne"
+                class="item_set_image"
+                src="./imagenes/set-hombre-01.png" width="340" height="511"/>
+
+              <p class="item_set_titulo ">Fresh Stripe Sweater</p>
+              <p class="item_set_precio">$85.00</p>
+            </div>
+            <div class="item_set">
+              <img
+                data-outfit="setTwo"
+                class="item_set_image"
+                src="./imagenes/set-mujer-capucha-01.png" width="340" height="511"
+              />
+              <p class="item_set_titulo">Fresh Black Tie-Dye Hoodie</p>
+              <p class="item_set_precio">$75.00</p>
+            </div>
+            <div class="item_set">
+              <img
+                data-outfit="setThree"
+                class="item_set_image"
+                src="./imagenes/set-mujer-capucha-02.png" width="340" height="511"/>
+              <p class="item_set_titulo">Pose For It Tee</p>
+              <p class="item_set_precio">$45.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pie_pagina">
+      <div class="envolver">
+        <img
+          class="pie_pagina_logo" src="./imagenes/logo-principe-fresco.png"  width="247" height="57"/> 
+        <div class="pie_pagina_sociales">
+          <a class="pie_pagina_link_social" href="" rel="noopener">
+              <img src="./imagenes/icon-youtube.svg" width="24" height="24"/></a>
+          <a class="pie_pagina_link_social" href="" rel="noopener">
+              <img src="./imagenes/Vector.svg" width="24" height="24"/></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js" async></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.pie_pagina {
+  background: var(--primary);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.pie_pagina_logo {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.pie_pagina_sociales {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.pie_pagina_link_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  border: 1px solid #fff;
+}

@@ -1,0 +1,25 @@
+
+
+@media screen and (min-width: 678px) {
+  .diseno_producto {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .diseno_producto {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    flex-wrap: nowrap;
+  }
+}
